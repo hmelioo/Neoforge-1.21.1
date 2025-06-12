@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0,
+  "group": "joycons",
+  "ingredient": {
+    "item": "jays_build_additions:joycons"
+  },
+  "result": {
+    "count": 64,
+    "id": "jays_build_additions:plastic_waste"
+  }
+}

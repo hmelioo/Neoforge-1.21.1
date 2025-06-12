@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jays_build_additions:joycon_block",
+      "item": "jays_build_additions:switch_system"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jays_build_additions:switch2"
+  }
+}
