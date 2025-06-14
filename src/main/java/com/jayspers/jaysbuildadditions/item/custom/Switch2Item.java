@@ -15,11 +15,13 @@ public class Switch2Item extends Item {
     }
 
     @Override
-    public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
-        Player _player = (Player) entity;
-        ItemStack _setstack = new ItemStack(ModItems.LAWSUIT.get()).copy();
-        _setstack.setCount(1);
-        ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+    public void inventoryTick(ItemStack itemstack, Level level, Entity entity, int slot, boolean selected) {
+        Player player = (Player) entity;
+        if (selected && level.isClientSide) {
+            player.setYRot(player.getYRot() - 0.1F);
+            ItemStack lawsuit = new ItemStack(ModItems.LAWSUIT.get());
+            ItemHandlerHelper.giveItemToPlayer(player, lawsuit);
+        }
     }
 }
 

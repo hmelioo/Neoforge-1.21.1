@@ -1,14 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "#": "jays_build_additions:joycons",
-    "X": "jays_build_additions:switch_system"
-  },
-  "pattern": [
-    "   ",
-    " #X",
-    "   "
+  "ingredients": [
+    {
+      "item": "jays_build_additions:joycons"
+    },
+    {
+      "item": "jays_build_additions:switch_system"
+    }
   ],
   "result": {
     "count": 1,

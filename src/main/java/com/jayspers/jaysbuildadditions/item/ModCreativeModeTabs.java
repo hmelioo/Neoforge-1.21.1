@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SWITCH_SYSTEM);
                         output.accept(ModItems.PLASTIC_WASTE);
                         output.accept(ModBlocks.JOYCON_BLOCK);
+                        output.accept(ModItems.LAWSUIT);
+                        output.accept(ModItems.SWITCH2);
                     })
 
                     .build());
